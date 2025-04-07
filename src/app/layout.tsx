@@ -18,14 +18,14 @@ export const metadata: Metadata = {
   other: {
     'fc:frame': JSON.stringify({
       version: 'next',
-      imageUrl: 'http://localhost:3000/images/paradigm-image.png',
+      imageUrl: 'https://paradigm-nine-nu.vercel.app/images/paradigm-image.png',
       button: {
         title: '👋 Say Hello',
         action: {
           type: 'launch_frame',
-          url: 'http://localhost:3000',
+          url: 'https://paradigm-nine-nu.vercel.app',
           name: 'Hello World',
-          splashImageUrl: 'http://localhost:3000/images/paradigm-splash.png',
+          splashImageUrl: 'https://paradigm-nine-nu.vercel.app/images/paradigm-splash.png',
           splashBackgroundColor: '#f8f5f1'
         }
       }
