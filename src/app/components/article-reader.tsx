@@ -5,10 +5,11 @@ import { ChevronDown } from 'lucide-react'
 import { ArticleSection } from "./article-section"
 import { TypewriterTitle } from "./typewriter-title"
 import Image from "next/image"
+import { articleContent } from "../data/article-content"
 
 export function ArticleReader() {
   const [visibleSections, setVisibleSections] = useState(1)
-  const totalSections = 5
+  const totalSections = articleContent.length
 
   // Update progress bar as user scrolls
   useEffect(() => {
@@ -79,11 +80,9 @@ export function ArticleReader() {
         </div>
 
         {/* Article Sections */}
-        {visibleSections >= 1 && <ArticleSection sectionId={1} />}
-        {visibleSections >= 2 && <ArticleSection sectionId={2} />}
-        {visibleSections >= 3 && <ArticleSection sectionId={3} />}
-        {visibleSections >= 4 && <ArticleSection sectionId={4} />}
-        {visibleSections >= 5 && <ArticleSection sectionId={5} />}
+        {Array.from({ length: visibleSections }, (_, i) => (
+          <ArticleSection key={i + 1} sectionId={i + 1} />
+        ))}
         
         {/* Load More Button */}
         {visibleSections < totalSections && (

@@ -1,0 +1,13 @@
+export const articleContentPart5 = [
+  [
+    `Dan Robinson, Huang's middle school friend and "the smartest person I knew growing up," embodied the technical depth needed to advance crypto's frontier. After Harvard Law School left him disillusioned, Robinson switched to programming and explored crypto while working at Stellar, a blockchain company. Huang and Ehrsam crafted a unique role split between investing, research, and helping portfolio companies build. What began as a compromise became the template for Paradigm's research-driven approach, with Robinson going on to invent key mechanisms for Uniswap, crypto's leading decentralized exchange.`,
+    `"She's been Matt and Fred's third partner, totally building the firm."`,
+    `–Graham Duncan, East Rock Capital`,
+    `Alana Palmedo, joining four weeks into Paradigm's existence when it still rented office space by the week, brought the institutional rigor needed to bridge crypto and traditional finance. Though not "deeply into crypto," her experience managing complex operations at Boston University's endowment and Bill Gates' investment office during the 2008 financial crisis proved invaluable. Initially skeptical, she was won over by Huang and Ehrsam's thoughtful approach to building an institutional-grade firm and her value investor's intuition that with Bitcoin down so far, "this must be the low."`,
+    `"She's been Matt and Fred's third partner, totally building the firm," says Duncan, who helped interview Palmedo. She initially managed everything from trade settlements to finance to compliance before recruiting specialists for each function, freeing the investment team to focus on deals. Now, as managing partner, she has architected Paradigm's high-performance culture, where radical transparency and daily self-reflection are expected from everyone, regardless of role. "Every single person must be in the top 1% of their domain," Palmedo insists.`
+  ],
+  [
+    `By mid-2019, with crypto prices beginning to recover but most investors still wary of the sector, Paradigm went back to market. Its initial investor base committed an additional $360 million. The timing was characteristic of Huang's approach: raising capital when others were skeptical, from partners who shared their conviction that crypto would fundamentally reshape finance.`,
+    `Though crypto has yet to fulfill its transformative promise, Paradigm's investments have already yielded exceptional returns. According to public filings, its first flagship fund grew from $760 million to $8.3 billion by the end of 2024. Speaking with sources close to the company, Paradigm has also returned all of its Limited Partners' initial capital, paying out more than $1 billion from the fund to date.`
+  ]
+] 
