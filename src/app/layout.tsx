@@ -20,7 +20,7 @@ export const metadata: Metadata = {
       version: 'next',
       imageUrl: 'https://paradigm-nine-nu.vercel.app/images/paradigm-image.png',
       button: {
-        title: '👋 Say Hello',
+        title: 'Read',
         action: {
           type: 'launch_frame',
           url: 'https://paradigm-nine-nu.vercel.app',
